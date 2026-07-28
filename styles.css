@@ -118,6 +118,22 @@ a{color:var(--chestnut);text-decoration:none;}
 }
 .hero-names .amp{color:var(--chestnut);font-weight:300;}
 
+.hero-names-row{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:24px;
+}
+.hero-figure{
+  height:140px;
+  width:auto;
+  flex-shrink:0;
+}
+@media (max-width:720px){
+  .hero-names-row{gap:10px;}
+  .hero-figure{height:70px;}
+}
+
 .hero-date{
   margin-top:16px;
   font-size:16px;
