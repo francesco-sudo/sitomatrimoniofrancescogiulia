@@ -306,6 +306,11 @@ a{color:var(--chestnut);text-decoration:none;}
   border:1px solid rgba(169,130,91,0.3);
 }
 
+@media (max-width:600px){
+  .gallery-item{flex-direction:column;align-items:flex-start;}
+  .gallery-item{width:230px;height:340px;}
+}
+
 /* RSVP form */
 .rsvp-form{
   display:flex;
