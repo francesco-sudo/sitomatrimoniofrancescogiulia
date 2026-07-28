@@ -66,7 +66,6 @@ Il form usa [Formspree](https://formspree.io) (gratuito fino a 50 invii/mese):
 
 ## 6. Personalizzare i contenuti
 Cose da modificare direttamente in `index.html` prima di pubblicare:
-- **La nostra storia**: testi segnaposto nella sezione `#storia`
+- **La nostra storia**: carica in `images/` una foto verticale (`storia-1.jpg`) per il primo incontro e una orizzontale (`storia-2.jpg`) per la prima uscita — i riquadri restano vuoti finché non le aggiungi
 - **Galleria**: sostituisci i riquadri `.gallery-item` con vere immagini (`<img src="images/foto1.jpg">`), dopo aver caricato le foto nella cartella `images/`
 - **Lista nozze**: testo segnaposto nella sezione `#lista`
-- **Dove dormire**: nomi e indirizzi hotel nella sezione `#dormire`
