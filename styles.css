@@ -334,6 +334,121 @@ a{color:var(--chestnut);text-decoration:none;}
   .gallery-item{width:230px;height:340px;}
 }
 
+
+/* Foto Live */
+.live-photo-card{
+  max-width:680px;
+  margin:0 auto;
+  padding:44px 30px 38px;
+  background:var(--ivory-alt);
+  border:1px solid rgba(169,130,91,0.3);
+  text-align:center;
+}
+
+.live-icons{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:24px;
+  margin-bottom:22px;
+  color:var(--chestnut);
+}
+
+.live-icon{
+  width:42px;
+  height:42px;
+}
+
+.live-icon svg{
+  width:100%;
+  height:100%;
+}
+
+.live-icon-heart{
+  width:30px;
+  height:30px;
+  color:var(--sage);
+}
+
+.live-icon-heart svg{
+  width:100%;
+  height:100%;
+}
+
+.live-photo-title{
+  font-family:'Cormorant Garamond',serif;
+  font-style:italic;
+  font-size:28px;
+  font-weight:500;
+  color:var(--chestnut-deep);
+  margin:0 0 10px;
+}
+
+.live-photo-text{
+  max-width:500px;
+  margin:0 auto 26px;
+  color:var(--ink-soft);
+  font-size:14px;
+}
+
+.live-photo-button{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  padding:13px 22px;
+  background:var(--chestnut);
+  color:var(--ivory);
+  font-family:'Jost',sans-serif;
+  font-size:12px;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  transition:
+    background .2s ease,
+    transform .2s ease;
+}
+
+.live-photo-button:hover{
+  background:var(--chestnut-deep);
+  transform:translateY(-1px);
+  color:var(--ivory);
+}
+
+.live-camera-icon{
+  width:18px;
+  height:18px;
+  display:inline-flex;
+}
+
+.live-camera-icon svg{
+  width:100%;
+  height:100%;
+}
+
+.live-arrow{
+  font-size:16px;
+  margin-left:3px;
+}
+
+@media (max-width:600px){
+  .live-photo-card{
+    padding:36px 20px 32px;
+  }
+
+  .live-icons{
+    gap:16px;
+  }
+
+  .live-photo-title{
+    font-size:25px;
+  }
+
+  .live-photo-button{
+    width:100%;
+  }
+}
+
+
 /* RSVP form */
 .rsvp-form{
   display:flex;
